@@ -10,20 +10,19 @@ README = (HERE / "README.md").read_text()
 
 # This call to setup() does all the work
 setup(
-    name="saral-square",
-    version="1.0.0",
+    name="jiaqi-test",
+    version="1.0.2",
     description="It squares the number",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/uditvashisht/saral-square",
-    author="Udit Vashisht",
-    author_email="admin@saralgyaan.com",
+    url="https://github.com/Jiaqi-knight/jiaqi-test",
+    author="Jiaqi-knight",
+    author_email="jiaqiwang969@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+
     ],
     packages=["square"],
     include_package_data=True,
@@ -32,5 +31,5 @@ setup(
         "console_scripts": [
             "square=square.__main__:main",
         ]
-    },
+    }, 
 )

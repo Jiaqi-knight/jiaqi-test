@@ -1,4 +1,4 @@
-# SaralGyaan Square
+# Jiaqi Square
 It takes an integer as an input and prints it square.
 
 ## Installation
